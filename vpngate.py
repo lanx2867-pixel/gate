@@ -51,7 +51,7 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/ct?ips=6&port=443"
+DEFAULT_OPTIMAL_API = ""
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
@@ -59,7 +59,24 @@ PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
     "saas.sin.fan:443",
+    "www.5199dy.com:443",
+    "m.iyf.tv:443",
     "www.mfyx.cn:443",
+    "fn.130519.xyz:443",
+    "www.wto.org:443",
+    "www.vmware.com:443",
+    "vps.cheng2001.top:443",
+    "idc.urkeji.com:443",
+    "linear.app:443",
+    "www.gov.il:443",
+    "api.gzcrtw.com:443",
+    "cf-cname.xingpingcn.top:443",
+    "jellyfin.roddy.eu.cc:443",
+    "cf.xreak.top:443",
+    "newsroom.avalara.com:443",
+    "qoj.ac:443",
+    "www.speedtest.net:443",
+    "registry.npmjs.org:443",
     "cf.nyanya.moe:443",
     "cf.877774.xyz:443",
     "cdn.204910.best:443",
